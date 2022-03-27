@@ -1,1 +1,1 @@
-The objective of this project is to develop a survey form for songafarmer, an agricultural company assiisting farmers with timely information.
+The objective of this project is to develop a survey form for songafarmer, an agricultural company assisting farmers with timely information about success farming tips, market, weather updates, inspiration and chat forums with fellow farmers.
