@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+</head>
+<body>
+  <h1 id="title">Songafarmer Survey Form</h1> 
+  <p id="description">Dear farmer, kindly take your time to participate in this survey form , your feedback will help us to serve  you better.</p> 
+  <form id="survey-form"> 
+  <div class="form-control">
+  <label for="name" id="name"> Name:</label>
+  <input type="text" id="name" placeholder="Enter your  Name">
+   </div>
+   <div class="form-control">
+   <label for="email" id="email">Email:</label>
+   <input type="email" required placeholder="Enter your Email" id="email">
+   </div>
+   <div class="form-control">
+   <label for="tele-number" id="tel">Tele Number:</label>
+   <input type="tel"  required placeholder="Enter your Tele Number" id="tele">
+   </div>
+   <div class="form-control">
+   <label for="age" id="age">Age:</label>
+   <input type="number"  min="18" max="70" placeholder="Age" id="age">
+   </div>
+   <div class="form-control">
+   <label for="year" id="date-label">Year of Birth:</label>
+   <input type="date"  required id="year">
+   </div>
+   <p>Choose Your  Farming Category</p>
+   <div class="form-control">
+   <select id="dropdown">
+   <option disabled="" selected="" value="">Select an option</option>
+   <option value="poultry farming">Poultry Farming</option>
+   <option value="vegetable farming">Vegetable Farming</option>
+   <option value="fruit farming ">Fruit Farming</option>
+   <option value="bee keeping">Bee Keeping</option>
+   <option value="dairy farming">Dairy Farming</option>
+   <option value="fish keeping">Fish Farming</option>
+   <option value="beef keeping">Beef Keeping</option>
+   <option value="others">Others</option>
+   </select>
+   </div>
+   <p>Would you recommend songafarmer to  your fellow farmers?</p>
+     <div class="form-control">
+     <label for="radio">Definately</label>
+     <input type="radio"  value="definately" name="recommend">
+     </div>
+     <div class="form-control">
+     <label for="radio">Maybe</label>
+     <input type="radio"  value="maybe" name="recommend">
+     </div>
+     <div class="form-control">
+     <label for="radio">Not Sure</label>
+     <input type="radio"  value="not sure" name="recommend">
+     </div>
+     <p>Choose Your Best songafarmer feature</p>
+     <div class="form-control">
+   <select id="drop-down">
+   <option disabled="" selected="" value="">Select an option</option>
+   <option value="market alerts">Market Alerts</option>
+   <option value="weather updates">Weather Updates</option>
+   <option value="news">News</option>
+   <option value="chat forum">Chat Forum</option>
+   <option value="recipe">Recipe</option>
+   <option value="inspiration">Inspiration</option>
+   </select>
+   </div>
+   <p>Which feature should songafarmer improve to make your experience better?(Check all that apply)</p>
+   <div class="form-control">
+   <label for="checkbox">Market Alerts</label>
+   <input type="checkbox"  value="market alerts">
+   </div>
+   <div class="form-control">
+   <label for="checkbox">Weather Updates</label>
+   <input type="checkbox"  value="weather updates">
+   </div>
+   <div class="form-control">
+   <label for="checkbox">News</label>
+   <input type="checkbox" value="news">
+   </div>
+   <div class="form-control">
+   <label for="checkbox">Chat Forum</label>
+   <input type="checkbox"  value="chat forum">
+   </div>
+   <div class="form-control">
+   <label for="checkbox">Recipe</label>
+   <input type="checkbox" value="recipe">
+   </div>
+   <div class="form-control">
+   <label for="checkbox">Inspiration</label>
+   <input type="checkbox"  value="inspiration">
+   </div>
+   <p>Any comments or suggestions?</p>
+   <div class="form-control">
+   <textarea placeholder="Enter your comments here..."></textarea>
+   </div>
+   <button class="submit-button" id="submit">Submit</button>
+  </form>
+  <footer>&copy;songafarmer 2022</footer>
+</body>
+</html>
